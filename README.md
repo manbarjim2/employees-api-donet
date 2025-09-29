@@ -15,3 +15,9 @@ Incluye:
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/TU-USUARIO/empleados-api-dotnet.git
+2. Restaurar dependencias
+   ```bash
+   donet restore
+4. Ejecutar
+   ```bash
+   donet run
