@@ -1,0 +1,26 @@
+GET https://localhost:7006/employees
+
+###
+GET https://localhost:7006/employees/7
+
+###
+POST https://localhost:7006/employees
+Content-Type: application/json
+
+{
+  "Name": "John Doe",
+  "Salary": 3300,
+  "BirthDate": "1990-05-15T00:00:00",
+  "DepartmentId": 2
+}
+
+###
+PUT https://localhost:7006/employees/7
+Content-Type: application/json
+{
+  "Name": "Jhon Smith",
+  "Salary": 3500
+}
+
+###
+DELETE https://localhost:7006/employees/7
